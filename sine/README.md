@@ -9,7 +9,7 @@ The defaults are that A and B box consensus nucleotide sequences are RVTGG and G
 The script ```run_sines.sh``` will download sine_finder, run sine_finder, parse results, assign to families, and output a GFF.
 To rerun, need to check paths at the beginning of the file, where things like the genome name and paths to executables for SILIX and VSEARCH are located.
 
-Each candidate SINE was is clustered using VSEARCH and silix, to characterize families.
+Each candidate SINE is clustered using VSEARCH and silix, to characterize families.
 These families are clustered with [Maize TE Consortium](http://www.maizetedb.org) exemplars to faciliatate comparison between genome versions.
 
 The script ```slurm_sinefinder.sh``` is what I used to submit on our cluster.
